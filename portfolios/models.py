@@ -7,7 +7,7 @@ class DadosPessoais(models.Model):
     adress = models.CharField(max_length=100, verbose_name='Endereço')
     city = models.CharField(max_length=50, verbose_name='Cidade')
     cep = models.CharField(max_length=50, verbose_name='Cep')
-    phone = models.CharField(max_length=50, verbose_name='Telefone')
+    phone = models.CharField(max_length=50, verbose_name='Telefone', null=True)
     mobile = models.CharField(max_length=50, verbose_name='Celular')
 
     about = models.TextField(max_length=255, verbose_name='Sobre')

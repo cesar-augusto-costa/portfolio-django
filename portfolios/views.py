@@ -7,3 +7,6 @@ def portfolio_exibir(request):
     # pessoa = DadosPessoais.objects.filter()
     context = {'pessoa': pessoa}
     return render(request, 'portfolios/portfolio_exibir.html', context)
+
+"PAREI" \
+"1:45:30"
